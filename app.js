@@ -14,9 +14,10 @@ const calcy = () =>{
   let grades = "";
 
 
-  let totalGrades = parseFloat(wd) + parseFloat(maths) + parseFloat(comp) + parseFloat(phy);
+  let totalGrades = (parseFloat(wd) + parseFloat(maths) + parseFloat(comp) + parseFloat(phy)).toFixed(2);
 
-  let perc = (totalGrades/400) * 100;
+  let perc =(((totalGrades/400) * 100).toFixed(2));
+  
 
   debugger;
 
@@ -31,10 +32,12 @@ const calcy = () =>{
   }
 
   if(perc >= 39.5){
-    document.getElementById('showData').innerHTML = ` Out of 400 your total is  ${totalGrades} and percentage is ${perc}%. <br> Your grade is ${grades}. Pass. `
+    document.getElementById('showData').innerHTML = ` Out of 400 your total is  ${totalGrades} and percentage is ${perc}%. <br> Your grade is ${grades}.  `
+    document.getElementById('result').innerHTML = ` PASS `
   }
   else{
-    document.getElementById('showData').innerHTML = ` Out of 400 your total is  ${totalGrades} and percentage is ${perc}%. <br> Your grade is ${grades}.Fail. `
+    document.getElementById('showData').innerHTML = ` Out of 400 your total is  ${totalGrades} and percentage is ${perc}%. <br> Your grade is ${grades}. `
+    document.getElementById('result').innerHTML = ` FAIL `
   }
 
   
