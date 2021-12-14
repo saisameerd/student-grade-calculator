@@ -123,7 +123,7 @@ body, button, input {
 
 #result{
   text-align: center;
-  color: skyblue;
+  color: rgb(19, 48, 59);
   font-size: 1.4rem;
   padding-top: -10px;
   padding-bottom: 10px;
