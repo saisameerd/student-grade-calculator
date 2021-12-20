@@ -99,7 +99,7 @@ body, button, input {
 }
 
 .app-form-button {
-  padding: 10px;
+  padding: 11px;
   background: none;
   border: none;
   border-radius: 20px;
@@ -110,7 +110,6 @@ body, button, input {
   outline: none;
   text-transform: uppercase;
 }
-
 .showdata{
   text-align: center;
   color: black;
