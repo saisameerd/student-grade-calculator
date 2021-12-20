@@ -99,7 +99,7 @@ body, button, input {
 }
 
 .app-form-button {
-  padding: 10px;
+  padding: 11px;
   background: none;
   border: none;
   border-radius: 20px;
@@ -111,10 +111,6 @@ body, button, input {
   text-transform: uppercase;
 }
 
-.app-form-button:hover {
-  color: #185adb;
-}
-
 .showdata{
   text-align: center;
   color: black;
@@ -122,6 +118,7 @@ body, button, input {
   padding-top: -10px;
   padding-bottom: 10px;
 }
+
 
 
 #result{
