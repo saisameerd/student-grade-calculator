@@ -35,7 +35,7 @@ body, button, input {
   right: 20px;
   bottom: 0;
   border-radius: 15px;
-  box-shadow: 0 20px 40px black);
+  box-shadow: 0 20px 40px black;
   z-index: -1;
 }
 
@@ -99,9 +99,12 @@ body, button, input {
 }
 
 .app-form-button {
+  padding: 10px;
   background: none;
   border: none;
-  color: #185adb;
+  border-radius: 20px;
+  background-color: #185adb;
+  color: white;
   font-size: 14px;
   cursor: pointer;
   outline: none;
