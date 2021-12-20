@@ -111,10 +111,6 @@ body, button, input {
   text-transform: uppercase;
 }
 
-.app-form-button:hover {
-  color: #185adb;
-}
-
 .showdata{
   text-align: center;
   color: black;
